@@ -33,6 +33,6 @@ For tail graph classification:
 - python main.py --dataset FRANK --alpha 0.1 --mu1 2 --mu2 0
 - python main.py --dataset IMDBBINARY --alpha 0.15 --mu1 0.5 --mu2 2
 
-For reproducing our results in the paper, you need to tune the values of key parameters like $\mu_1,\mu_2, \alpha,$, modelsize in your experimental environment.The search space of $\mu_1,\mu_2, \alpha,$, modelsize, are {0.1, 0.5, 1, 1.5, 2}, {0.1, 0.5, 1, 1.5, 2}, {0.05, 0.1, 0.15, 0.2, 0.25, 0.3}, {16, 32, 64, 128},  respectively. 
+For reproducing our results in the paper, you need to tune the values of key parameters like $\mu_1,\mu_2, \alpha, d_m$,  in your experimental environment.The search space of $\mu_1,\mu_2, \alpha,$, modelsize, are {0.1, 0.5, 1, 1.5, 2}, {0.1, 0.5, 1, 1.5, 2}, {0.05, 0.1, 0.15, 0.2, 0.25, 0.3}, {16, 32, 64, 128},  respectively. 
 
 ## 4.Citation
