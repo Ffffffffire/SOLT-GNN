@@ -23,7 +23,11 @@ The repository is organised as follows:
 
 ## 3.Running experiments
 
-We train our model using NVIDIA GeForce RTX 1080 GPU with CUDA 10.1.
+We train our model using NVIDIA GeForce RTX 1080 GPU with CUDA 11.0.
+
+please firstly run subgraph_sample.py to complete the subgraph sampling process before run the main.py:
+
+- python subgraph_sample.py
 
 For tail graph classification:
 
