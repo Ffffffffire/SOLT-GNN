@@ -25,7 +25,7 @@ The repository is organised as follows:
 
 We train our model using NVIDIA GeForce RTX 1080 GPU with CUDA 11.0.
 
-please firstly run subgraph_sample.py to complete the subgraph sampling process before run the main.py:
+please firstly run subgraph_sample.py to complete the subgraph sampling process before running the main.py:
 
 - python subgraph_sample.py
 
