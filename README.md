@@ -6,7 +6,7 @@ We provide the implementaion of SOLT-GIN based on the official PyTorch implement
 The repository is organised as follows:
 
 - dataset/: the original data and sampled subgraphs of five benchmark dataset.
-- main.py: tail graph classificaiton of SOTAGIN.
+- main.py: tail graph classificaiton of SOLT-GIN.
 - gin.py: base GIN model.
 - PatternMemory.py: implementation of pattern memory.
 - utils.py: contains tool functions for loading the data and data split.
